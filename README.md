@@ -42,18 +42,6 @@ Push tag (vX.X.X)
        ├──▶ Upload to TestFlight
        └──▶ Create GitHub Release
 ```
-
-### Secrets required
-
-| Secret | Description |
-|---|---|
-| `ASC_KEY_ID` | App Store Connect API Key ID |
-| `ASC_ISSUER_ID` | App Store Connect Issuer ID |
-| `ASC_KEY_CONTENT` | App Store Connect API Key (.p8 content) |
-| `MATCH_GIT_URL` | URL of the private certificates repository |
-| `MATCH_PASSWORD` | Password to decrypt the certificates repo |
-| `MATCH_GIT_BASIC_AUTHORIZATION` | Base64-encoded GitHub credentials for Match |
-
 ### Deploying a new version
 
 ```bash
